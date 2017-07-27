@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Import Google Icon Font-->
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	 <!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+	<link rel="stylesheet" href="main.css">
+	<meta charset="UTF-8">
+	<title>HCJ - HTML/CSS/JavaScript</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="lime lighten-5">
+	<div class="parallax-container">
+      <div class="parallax"><img class="responsive-img" src="img/parallax1.png"></div>
+  </div>
+	<div class="mmenu">
+		<ul>
+			<li><a href="">Новости</a></li>
+			<li><a href="">HTML/CSS</a></li>
+			<li><a href="">JavaScript</a></li>
+			<li><a href="">Полезные фичи</a></li>
+			<li><a href="">Шаблоны</a></li>
+			<li><a href="">Статьи</a></li>
+		</ul>
+	</div>
+	<div class="wrap">
+		<header id="top">
+			<img src="img/logo1.png" alt="logo">
+			<h1></h1>
+		</header>
+	</div>
+		<nav>
+			<ul>
+				<a href="#intro"><li>Новости</li></a>
+				<a href="#html"><li>HTML/CSS</li></a>
+				<a href="#css"><li>JavaScript</li></a>
+				<a href="#templates"><li>Полезные фичи</li></a>
+				<a href="#scripts"><li>Шаблоны</li></a>
+				<a href="#faq"><li>Статьи</li></a>
+			</ul>
+		</nav>
+		<div class="wrap">
+		<section id="intro">
+			<a href="#"><h2 id="">Статьи</h2></a>
+			<p class="flow-text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore incidunt quibusdam aliquid dolores porro deserunt consectetur odit? Impedit sit ipsa error, deserunt molestiae, quae veniam dolorum sint cupiditate vero illo.
+			</p>
+		</section>
+		<section id="html">
+			<h2>HTML/CSS</h2>
+			<p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, excepturi sint atque soluta necessitatibus repellendus et eius, natus commodi eos, vel minima nemo. Itaque porro, id officiis praesentium libero soluta!
+			</p>
+
+			<p class="flow-text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, quidem maxime ad odio, vitae accusantium itaque ipsa, ratione suscipit labore dolor mollitia nam exercitationem, delectus commodi! Natus id at accusantium.
+			</p>
+		</section>
+		<section id="css">
+			<h2>JavaScript</h2>
+			<p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, cumque minus quaerat, doloribus modi omnis voluptas, eum ab, a dolore similique deserunt ut odit deleniti hic ex. Reprehenderit, officia, minus.
+			</p>
+
+			<p class="flow-text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus distinctio necessitatibus sequi asperiores nesciunt nisi libero blanditiis ea vitae, laborum inventore cupiditate neque maxime officiis commodi, iusto quod itaque cum.
+			</p>
+		</section>
+		<section id="templates">
+			<h2>Полезные фичи</h2>
+			<p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quam voluptatem error quaerat deleniti nisi sapiente vel voluptatibus officia mollitia eaque quis, dolorum, totam eveniet assumenda minima ea quae obcaecati.
+			</p>
+
+			<p class="flow-text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus odit, quibusdam eveniet numquam doloremque laborum optio commodi placeat esse ipsum ullam illo facere non, soluta autem. Sed dignissimos, libero quidem.
+			</p>
+		</section>
+		<section id="scripts">
+			<h2>Шаблоны</h2>
+			<p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id porro, mollitia voluptatem, cupiditate quidem temporibus maxime officia error nam nulla, provident, quia magni itaque praesentium ad distinctio voluptate animi tempore?
+			</p>
+
+			<p class="flow-text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quae blanditiis accusantium velit, quam minima, eaque ad tempore error quia. Sunt aliquam dolorum esse, maxime autem a debitis
+				<a href="#"><span class="span-btn">dignissimos quidem</span></a>.
+			</p>
+		</section>
+		<section id="faq">
+			<h2>Статьи</h2>
+			<p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi necessitatibus qui esse! Quibusdam aspernatur magni, numquam magnam. Incidunt earum voluptatem beatae reiciendis, corrupti cumque quam id odit provident obcaecati, facilis!</p>
+			<p class="flow-text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut rerum optio facilis esse sit veniam iste voluptate velit dolor architecto eaque ab aliquid, animi maiores ea dignissimos deleniti dolorum tenetur.
+			</p>
+		</section>
+	</div>
+	<div class="up">
+		<a href="#top">up</a>
+	</div>
+	<footer>
+		<div class="wrap flex">
+			<p class="p-footer">Created by Pavlo Pyrozhenko &#xa9;</p>
+		</div>
+	</footer>
+	<script>
+		$(function(){
+
+	$(document).on( 'scroll', function(){
+
+		if ($(window).scrollTop() > 100) {
+			$('.up').addClass('show');
+		}
+		else {
+			$('.up').removeClass('show');
+		}
+	});
+});
+
+	</script>
+
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.parallax').parallax();
+	});
+
+	</script>
+</body>
+</html>
